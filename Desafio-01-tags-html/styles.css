@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Cascadia Code", sans-serif;
+  text-decoration: none;
 }
 
 body {
@@ -48,7 +49,38 @@ aside {
   position: fixed;
   height: 100vh;
   background: rgb(216, 218, 218);
+  padding: 10px 10px;
+}
+
+aside nav {
+  margin: 20px 0;
+}
+
+aside nav ul li {
+  margin-top: 10px;
+}
+
+aside nav ul {
+}
+aside nav a {
+  display: block;
+  color: black;
+  cursor: pointer;
+  user-select: none;
   padding: 5px;
+}
+
+aside nav li:hover {
+  background: rgb(112, 112, 112);
+  padding: 5px;
+  width: 100%;
+  border-radius: 3px;
+  border-left: 6px solid black;
+  left: -2px;
+  transition: background 0.5s ease, color 0.3s ease;
+}
+aside nav li:hover a {
+  color: white !important;
 }
 
 header,
