@@ -11,11 +11,13 @@
 
 <link rel="stylesheet" href="styles.css" />
 
-    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+    <title >Página - Módulo I - Primeiros Passos com HTML</title>
+  
   </head>
   <body>
     <header>
-      <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+      <a href="#titulo" class="voltar">voltar</a>
+      <h1 id="titulo">Módulo 1 - Primeiros Passos com HTML</h1>
       <p>
         
     </br>
@@ -27,120 +29,201 @@
         <span><strong> ÍNDICE INSTRUÇÕES: </strong></span>
         <nav>
         <ul>
-          <li><a class="butLink" href="#">História dos computadores</a></li>
-          <li>
-            <a class="butLink" href="#">O que são <i>Clients</i>?</a>
-          </li>
-          <li>
-            <a  class="butLink" href="#">O que são <i>Servers</i>?</a>
-          </li>
-          <li><a class="butLink" href="#">Como é uma estrutura básica de um HTML?</a></li>
-          <li>
-            <a class="butLink" href="#"
-              >Entendendo a diferença entre listas ordenadas e não ordenadas</a
-            >
-          </li>
-          <li><a class="butLink" href="#">Links de referências</a></li>
-        </ul>
+  <li><a class="butLink" href="#historia">História dos computadores</a></li>
+  <li><a class="butLink" href="#clients">O  que são Clients?</a></li>
+  <li><a class="butLink" href="#servers">O que são Servers?</a></li>
+  <li><a class="butLink" href="#estrutura">Como é uma estrutura básica de um HTML?</a></li>
+  <li><a class="butLink" href="#listas">Diferença entre listas ordenadas e não ordenadas</a></li>
+  <li><a class="butLink" href="#scraping">Web Scraping</a></li>
+  <li><a class="butLink" href="#h1">O que são &lt;h1&gt; a &lt;h6&gt;?</a></li>
+  <li><a class="butLink" href="#p">O que é a tag &lt;p&gt;?</a></li>
+  <li><a class="butLink" href="#mark">O que é a tag &lt;mark&gt;?</a></li>
+  <li><a class="butLink" href="#smal">O que é a tag &lt;smal&gt;?</a></li>
+  <li><a class="butLink" href="#i">O que é a tag &lt;i&gt;?</a></li>
+   <li><a class="butLink" href="#u">O que é a tag &lt;u&gt;?</a></li>
+  <li><a class="butLink" href="#strong">O que é a tag &lt;strong&gt;?</a></li>
+  <li><a class="butLink" href="#ol">O que é a tag &lt;ol&gt;?</a></li>
+  <li><a class="butLink" href="#ul">O que é a tag &lt;ul&gt;?</a></li>
+  <li><a class="butLink" href="#li">O que é a tag &lt;li&gt;?</a></li>
+  <li><a class="butLink" href="#a">O que é a tag &lt;a&gt;?</a></li>
+  <li><a class="butLink" href="#hr">O que é a tag &lt;hr&gt;?</a></li>
+  <li><a class="butLink" href="#sub">O que é a tag &lt;sub&gt;?</a></li>
+  <li><a class="butLink" href="#sup">O que é a tag &lt;sup&gt;?</a></li>
+  <li><a class="butLink" href="#blockquote">O que é a tag &lt;blockquote&gt;?</a></li>
+  <li><a class="butLink" href="#font">O que é a tag &lt;font&gt;?</a></li>
+  <li><a class="butLink" href="#del">O que é a tag &lt;del&gt;?</a></li>
+  <li><a class="butLink" href="#abbr">O que é a tag &lt;abbr&gt;?</a></li>
+</ul>
+
       </nav>
       </aside>
 
       <div class="content">
-      <section>
+      
+
+      <section >
+        <article id="historia">
         <h1>História dos computadores</h1>
-        <p>
-          <strong>INSTRUÇÕES: </strong>Neste trecho, coloque com suas palavras o
-          que entendeu sobre o assunto. Não esqueça de colocar links para outros
-          sites e também de formatar o texto com <strong>negrito</strong>,
-          <i>itálico</i> e sublinhado quando necessário.
-        </p>
-        <p>
-          Não esqueça também de colocar o link para voltar até o índice. (Lembra
-          das âncoras?)
-        </p>
-      </section>
+        <br>
+          Entender um pouco da história do computador, surgimento da internet e entender como funciona toda a comunicação quando você acessa uma página web ou utiliza um aplicativo.
 
-      <section>
-        <article>
-          <h2>O que são <i>Clients</i>?</h2>
-          <p>
-            <strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas
-            palavras o que entendeu sobre o assunto. Não esqueça de colocar
-            links para outros sites e também de formatar o texto com
-            <strong>negrito</strong>, <i>itálico</i> e sublinhado quando
-            necessário.
-          </p>
-          <p>
-            Não esqueça também de colocar o link para voltar até o índice.
-            (Lembra das âncoras?)
-          </p>
-        </article>
-        <article>
-          <h2>O que são <i>Servers</i>?</h2>
-          <p>
-            <strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas
-            palavras o que entendeu sobre o assunto. Não esqueça de colocar
-            links para outros sites e também de formatar o texto com
-            <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando
-            necessário.
-          </p>
-          <p>
-            Não esqueça também de colocar o link para voltar até o índice.
-            (Lembra das âncoras?)
-          </p>
-        </article>
-        <article>
-          <h2>Como é uma estrutura básica de um HTML?</h2>
-          <p>
-            <strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas
-            palavras o que entendeu sobre o assunto. Não esqueça de colocar
-            links para outros sites e também de formatar o texto com
-            <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando
-            necessário.
-          </p>
-          <p>
-            Não esqueça também de colocar o link para voltar até o índice.
-            (Lembra das âncoras?)
-          </p>
+          internet como surgiu?
+        </br> </br>
+O primeiro sistema foi telégrafo 1958
 
-          <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+década 1950 - guerra fria 
+
+Robnett Licklider - fez a teorizou sobre um rede onde todo poderiam  sem comunicar através dela.
+</br> </br>
+ Desde então muita coisa aconteceu….
+
+arpanet - sisemta de comuncação em pacotes, enviados um a um e que permitia mútiplos destinos.
+
+estudos sobre nós. pontos de intersecção de informações funcionando como checkpoints. podemos dizer que é o avô dos roteadores.
+
+</br> </br>
+Primeira conexão estabelicida foi feita em 29/10/1969
+
+palavra LOGIN mas so chegou LO
+
+Vinton Cerf e Robert Kahn criou o TCP IP
+
+em 1989 , Tim Berners-lee viu a oportunidade de unir hipoertexto com TCP/IP e criar a wolrd wide web(www) primeiro navegador chamado worldwideweb.
+
+primeira pagina publicada agosto 6, 1991
+
+https://info.cern.ch/
+        </p>
+
+      </article>
+
+        <article id="clients">
+          <h1>O que são <i>Clients</i>?</h1>
           <p>
-            <strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas
-            palavras o que entendeu sobre o assunto. Não esqueça de colocar
-            links para outros sites e também de formatar o texto com
-            <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando
-            necessário.
-          </p>
-          <p>
-            Não esqueça também de colocar o link para voltar até o índice.
-            (Lembra das âncoras?)
+          Quando você consome a informaçao da internet do servidor. normalmente sao  arquivo estáticos, html, css, javascript , imagens…
+
+e preocupaçao e fazer um site com design responsivo ou responsividade.
           </p>
         </article>
+
+        <article id="servers">
+          <h1>O que são <i>Servers</i>?</h1>
+          <p>
+            Um servidor é um sistema de computador ou software que fornece serviços, recursos ou dados a outros computadores, conhecidos como clientes, em uma rede.
+          </p>
+        </article>
+
+        <article id="estrutura">
+          <h1>Como é uma estrutura básica de um HTML?</h1>
+          <p>
+           A estrutura básica do HTML é composta pelas tags <!DOCTYPE html>, &lt;html&gt; ,  &lt;head&gt;  e &lt;body&gt; . O &lt;!DOCTYPE html&gt;  declara o tipo de documento, o &lt;html&gt; envolve todo o conteúdo, o &lt;head&gt; contém metadados sobre a página e o &lt;body&gt; contém o conteúdo visível. 
+          </p>
+        </article>
+
+        <article id="listas">
+          <h1>Entendendo a diferença entre listas ordenadas e não ordenadas</h1>
+          <p>
+          Listas ordenadas (ou numeradas) usam números, letras ou algarismos romanos para indicar a sequência dos itens, enquanto listas não ordenadas (ou com marcadores) empregam marcadores visuais, como círculos ou quadrados, para apresentar os itens sem uma ordem específica. 
+          </p>
+        </article>
+
+        <article id="scraping">
+          <h1>Web Scraping</h1>
+          <p>Web scraping é o processo de extrair dados de sites da web usando um programa ou script.</p>
+        </article>
+
+        <article id="h1">
+         <h1>O que são &lt;h1&gt; a &lt;h6&gt;?</h1>
+          <p>São tags de cabeçalho no HTML — usadas para criar títulos e subtítulos na sua página. Elas indicam níveis de importância de conteúdo.</p>
+        </article>
+
+           <article id="p">
+         <h1>O que é a tag &lt;p&gt;?</h1>
+          <p>Em HTML, a tag &lt;p&gt; é usada para definir um parágrafo de texto. Ela representa um bloco de texto que é separado de outros blocos por espaços em branco verticais e, geralmente, recuo na primeira linha. </p>
+        </article>
+
+          <article id="mark">
+         <h1>O que é a tag &lt;mark&gt;?</h1>
+          <p>Em HTML, a tag &lt;mark&gt; é utilizada para destacar ou realçar texto, geralmente dentro de um contexto específico, como um parágrafo ou uma lista. </p>
+        </article>
+
+          <article id="smal">
+         <h1>O que é a tag &lt;smal&gt;?</h1>
+          <p> O elemento html &lt;smal&gt; é utilizado para exibir texto com uma fonte menor do que o tamanho padrão,</p>
+        </article>
+
+          <article id="i">
+         <h1>O que é a tag &lt;i&gt;?</h1>
+          <p>Em HTML, a tag &lt;i&gt; é usada para definir uma parte do texto com uma voz ou humor diferente, geralmente exibida em itálico. </p>
+        </article>
+
+          <article id="u">
+         <h1>O que é a tag &lt;u&gt;?</h1>
+          <p>Em HTML, a tag &lt;u&gt; é usada para sublinhar texto, mas no HTML5, ela recebeu um significado semântico mais amplo, representando uma anotação não textual sobre o texto, em vez de simplesmente um efeito visual de sublinhado. </p>
+        </article>
+
+        <article id="strong">
+         <h1>O que é a tag &lt;strong&gt;?</h1>
+          <p>A tag &lt;strong&gt; em HTML é usada para definir um texto com importância forte ou ênfase,</p>
+        </article>
+        <article id="ol">
+         <h1>O que é a tag &lt;ol&gt;</h1>
+          <p>O elemento Html &lt;ol&gt; define uma lista ordenada, onde os itens são apresentados em sequência numérica ou alfabética. </p>
+        </article>
+        <article id="ul">
+         <h1>O que é a tag &lt;ul&gt;?</h1>
+          <p>Em elemento &lt;ul&gt; representa uma lista não ordenada. É usado para agrupar uma série de itens, onde a ordem em que eles aparecem não é significativa.  </p>
+        </article>
+        <article id="li">
+         <h1>O que é a tag &lt;li&gt;?</h1>
+          <p>Em HTML, a tag &lt;li&gt; O elemento HTML &lt;li&gt; (ou a Lista dos Itens de um elemento HTML) é usado para representar um item que faz parte de uma lista. Este item deve estar contido em um elemento pai: uma lista ordenada (&lt;ol&gt;), uma lista desordenada (&lt;ul&gt;)  </p>
+        </article>
+        <article id="a">
+         <h1>O que é a tag &lt;a&gt;?</h1>
+          <p>O elemento &lt;a&gt; em HTML (ou elemento âncora), com o atributo href cria-se um hiperligação nas páginas web, arquivos, endereços de emails, ligações na mesma página ou endereços na URL. O conteúdo dentro de cada <a> precisará indicar o destino do link. </p>
+        </article>
+        <article id="hr">
+         <h1>O que é a tag &lt;hr&gt;?</h1>
+          <p>O elemento HTML &lt;hr&gt; representa uma quebra temática entre elementos de nível de parágrafo (por exemplo , uma mudança da cena de uma história, ou uma mudança de tema com uma seção). </p>
+        </article>
+        <article id="sub">
+         <h1>O que é a tag &lt;sub&gt;?</h1>
+          <p>O elemento HTML &lt;sub&gt; é usado para definir texto subscrito, que aparece um pouco abaixo da linha de texto normal e geralmente com um tamanho de fonte menor. É comumente utilizado em fórmulas químicas (como H₂O) ou em expressões matemáticas para indicar índices ou expoentes. </p>
+        </article>
+        <article id="sup">
+         <h1>O que é a tag &lt;sup&gt;?</h1>
+          <p> O elemento HTML especifica o texto embutido que deve ser exibido como sobrescrito por razões exclusivamente tipográficas. Sobrescritos geralmente são renderizados com uma linha de base elevada e texto menor.&lt;sup&gt;</p>
+        </article>
+        <article id="blockquote">
+         <h1>O que é a tag &lt;blockquote&gt;?</h1>
+          <p>O elemento &lt;blockquote&gt; em HTML é utilizado para marcar citações longas de outro conteúdo. Ele indica que o texto dentro do elemento é uma citação e, geralmente, é exibido com recuo nas margens, tanto na visualização quanto na impressão. Além disso, o atributo cite pode ser usado para fornecer um link para a fonte da citação. </p>
+        </article>
+        <article id="font">
+         <h1>O que é a tag &lt;font&gt;?</h1>
+          <p>A tag &lt;font&gt; em HTML serve para especificar o tipo, tamanho e cor da fonte de um texto em uma página web. No entanto, essa tag foi descontinuada no HTML5 e não é mais recomendada para uso. Em vez dela, é preferível utilizar CSS </p>
+        </article>
+        <article id="del">
+         <h1>O que é a tag &lt;del&gt;?</h1>
+          <p>O elemento HTML &lt;del&gt; é usado para marcar texto que foi removido de um documento. Ele geralmente é exibido com um risco por cima do texto. É útil para mostrar alterações em documentos ao longo do tempo ou para indicar que um trecho de texto não é mais relevante.  </p>
+        </article>
+        <article id="abbr">
+         <h1>O que é a tag &lt;abbr&gt;?</h1>
+          <p>A tag HTML &lt;abbr&gt; é usada para definir uma abreviação ou acrônimo em um documento HTML. Ela serve para indicar que um trecho de texto é uma abreviação, e opcionalmente, fornecer sua expansão completa através do atributo title. </p>
+        </article>
+
       </section>
       </div>
     </main>
 
     <footer>
       <h1>Links de referências</h1>
-      <p>
-        <strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas
-        que falam sobre estes assuntos. Não esquece de que precisa abrir em
-        outra aba/janela do navegador.
-      </p>
       <nav>
-        <ul>
-          <li>
-            <a href="http://dio.me" target="_blank" rel="noopener noreferrer"
-              >Plataforma Dio</a
-            >
-          </li>
-          <li>
-            <a href="http://w3c.org" target="_blank" rel="noopener noreferrer">
-              Site oficial do W3C</a
-            >
-          </li>
-        </ul>
+       <ul>
+        <li><a href="http://dio.me" target="_blank" rel="noopener noreferrer" >Plataforma Dio</a></li>&nbsp;&nbsp;
+         <li><a href="http://w3c.org" target="_blank" rel="noopener noreferrer"> Site oficial do W3C</a></li>
+       </ul>
       </nav>
     </footer>
+
   </body>
 </html>
