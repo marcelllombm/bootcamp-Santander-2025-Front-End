@@ -31,3 +31,4 @@ Sigam as intruções da chamada do vídeo. Acredito que por lá, ficará mais f�
 Links úteis
 Download do NVDA
 Wikipedia
+![Captura de Tela 2025-06-23 às 07 14 05](https://github.com/user-attachments/assets/1042e09e-d6c4-4c76-ad58-3629e873678f)
