@@ -12,6 +12,8 @@ A ideia deste Desafio de Projeto é elaborar um website, utilizando uma estrutur
 Utilizar novas tags sugeridas: <font>, <del>, <p>, <abbr> (a ideia é buscar estas tags na internet, entender como ela funciona e utilizar no texto).`
 ![Captura de Tela 2025-06-21 às 17 16 32](https://github.com/user-attachments/assets/34656c21-b009-4ee1-a9a3-8cd4121eace5)
 
+---------- /// ---------- /// ----------
+
 # Desafio-02-Trilha-HTML
 
 Título: Recriando Wikipedia, com um layout melhor :)
