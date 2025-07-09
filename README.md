@@ -32,3 +32,12 @@ Links úteis
 Download do NVDA
 Wikipedia
 ![Captura de Tela 2025-06-23 às 07 14 05](https://github.com/user-attachments/assets/1042e09e-d6c4-4c76-ad58-3629e873678f)
+
+---------- /// ---------- /// ----------
+
+# Desafio-03-Trilha-HTML
+
+Neste Desafio você colocará a mão na massa e irá clonar a página do YouTube com CSS colocando em prática todos os conceitos aprendidos, principalmente sobre Flexbox.
+ 
+Seja criativo(a) e dê a sua identidade para o Projeto. Lembre-se que para um(a) Profissional de Tecnologia é super importante ter um portfólio sólido e completo.
+![Captura de Tela 2025-07-09 às 07 26 51](https://github.com/user-attachments/assets/0a8b5d22-eef3-40e8-9b83-e98ce0e3ae84)
