@@ -13,20 +13,39 @@
   </head>
   <body>
     <header>
-      <div class="header-menu">
-        <i class="ph-bold ph-list"></i>
-        <a href="#" title="Inicio da página"
-          ><img src="./assets/images/youtube.png" alt="logo do youtube"
-        /></a>
-      </div>
+      <nav class="header-menu">
+        <button aria-label="Abrir menu">
+          <i class="ph-bold ph-list"></i>
+        </button>
+        <a
+          href="/"
+          title="Inicio da página"
+          aria-laber="Ir para a página inicial"
+        >
+          <img src="./assets/images/youtube.png" alt="Logo do youtube" />
+        </a>
+      </nav>
       <div class="header-search">
-        <input type="text" />
-        <i class="ph-bold ph-magnifying-glass"></i>
+        <label for="search" class="sr-only">Pesquisar: </label>
+        <input
+          type="search"
+          placeholder="Buscar"
+          aria-label="Pesquisar vídeos"
+        />
+        <button aria-label="Buscar">
+          <i class="ph-bold ph-magnifying-glass"></i>
+        </button>
       </div>
       <div class="header-user">
-        <i class="ph-bold ph-video-camera"></i>
-        <i class="ph ph-bell-simple-ringing"></i>
-        <img src="./assets//images/marcelo.jpg" alt="Marcelo " />
+        <button aria-label="Iniciar gravação">
+          <i class="ph-bold ph-video-camera"></i>
+        </button>
+        <button aria-label="Notificação">
+          <i class="ph ph-bell-simple-ringing"></i>
+        </button>
+        <a href="/" title="perfil " aria-label="Abrir perfil do usuário">
+          <img src="./assets/images/marcelo.jpg" alt="Marcelo " />
+        </a>
       </div>
     </header>
     <main></main>

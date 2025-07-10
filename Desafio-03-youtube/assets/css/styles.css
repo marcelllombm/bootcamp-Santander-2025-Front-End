@@ -29,3 +29,15 @@ header {
   margin-left: 32px;
   border: none;
 }
+
+/*esconder o label*/
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  border: 0;
+}
