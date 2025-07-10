@@ -50,48 +50,72 @@
     </header>
     <main>
       <section>
-        <div>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube-nocookie.com/embed/w5uG-qfVF0s?si=tVXqDUmyzp-Oh1DK"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
-          <h1>Aprenda HTML e Construa sua Carreira como Desenvolvedor Web!</h1>
-        </div>
+        <article class="video-article">
+          <figure class="video-iframe">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube-nocookie.com/embed/w5uG-qfVF0s?si=tVXqDUmyzp-Oh1DK"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            <figcaption>
+              <h1>
+                Aprenda HTML e Construa sua Carreira como Desenvolvedor Web!
+              </h1>
+            </figcaption>
+          </figure>
+        </article>
 
         <div>
-          <div>
-            <img src="" alt="" />
-            <a>Dio</a>
-            <p>122 mil inscritos</p>
+          <div class="channel-profile">
+            <img
+              src="https://yt3.ggpht.com/_HfgLNdU77la-nFe97KHYFdhfi1IH-1J0I9WUfC9vOeQZWXl53aPGiQG3y2MMwWz0wjgFN56Eiw=s48-c-k-c0x00ffffff-no-rj"
+              alt="Logo do Dio"
+              width="42"
+              height="42"
+            />
+            <div>
+              <a href="#" class="channel-dio">Dio</a>
+              <p class="subscribers">122 mil inscritos</p>
+            </div>
           </div>
-          <span>Inscreva-se</span>
+          <button class="bt-subscribe" aria-label="Inscrever-se no canal Dio">
+            Inscreva-se
+          </button>
         </div>
 
-        <div>
-          <div><i class="ph-bold ph-thumbs-up"></i><span>2 mil</span></div>
-          <div>
-            <i class="ph-bold ph-thumbs-down"></i><span>Não gostei</span>
-          </div>
-          <div>
-            <i class="ph-bold ph-share-network"></i><span>compartilhar</span>
-          </div>
-          <div>
-            <i class="ph-bold ph-download-simple"></i><span>Download</span>
-          </div>
-        </div>
-        <article>
-          <h1>389 visualizações há 1 ano #WebDesign #HTML #FrontEnd</h1>
+        <ul class="actions-list">
+          <li>
+            <button aria-label="marcar como gostei"><i class="ph-bold ph-thumbs-up"></i></button
+            ></i><span>2 mil</span>
+            </li>
+          <li>
+            <button aria-label="marcar como não gostei"><i class="ph-bold ph-thumbs-down"></i></button><span>Não gostei</span>
+          </li>
+          <li>
+            <button aria-label="compartilhar"><i class="ph-bold ph-share-network"></i></button><span>compartilhar</span>
+          </li>
+          <li>
+            <button aria-label="Download"><i class="ph-bold ph-download-simple"></i></button><span>Download</span>
+          </li>
+        </ul>
+
+        <article aria-label="video-info-title" class="video-description">
+          <header>
+          <h2>389 visualizações há 1 ano </h2>
+          <p>#WebDesign #HTML #FrontEnd</p>
+          </header>
           <p>
             Quer se tornar um desenvolvedor web? O HTML é a espinha dorsal da
             web, essencial para criar e estruturar páginas. Empresas como
             Google, Facebook e Amazon utilizam HTML, e dominar essa habilidade
-            pode abrir portas para salários entre R$ 3 mil e R$ 8 mil. Nossa
+            pode abrir portas para salários entre R$ 3 mil e R$ 8 mil.</p>
+            
+            <p> Nossa
             formação de 21 horas é perfeita para começar sua carreira como
             front-end, ensinando desde as bases até a criação de projetos
             práticos como a recriação da Wikipedia. Assine o DIO.pro e acesse a
@@ -101,6 +125,5 @@
       </section>
       <aside></aside>
     </main>
-    <footer></footer>
   </body>
 </html>
