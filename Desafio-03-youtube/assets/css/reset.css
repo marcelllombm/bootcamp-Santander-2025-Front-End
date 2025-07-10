@@ -12,5 +12,7 @@
 :root {
   --black: rgb(0, 0, 0);
   --red: rgb(204, 0, 0);
-  --grey: rgb(81, 81, 81);
+  --gray: rgb(81, 81, 81);
+  --light-gray: rgb(248, 248, 248);
+  --white: rgb(255, 255, 255);
 }

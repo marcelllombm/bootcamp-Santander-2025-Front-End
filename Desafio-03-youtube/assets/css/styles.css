@@ -1,1 +1,31 @@
 @import url("reset.css");
+
+header {
+  padding: 16px;
+  max-width: 56px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.header-menu,
+.header-search,
+.header-user {
+  display: flex;
+  align-items: center;
+}
+
+.header-menu .ph-bold {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.header-menu .ph-bold:hover {
+  color: red;
+}
+
+.header-menu img {
+  max-width: 90px;
+  margin-left: 32px;
+  border: none;
+}
