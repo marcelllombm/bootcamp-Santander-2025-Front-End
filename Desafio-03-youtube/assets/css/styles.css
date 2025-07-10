@@ -172,6 +172,7 @@ main {
 .channel .actions-list .ph-bold {
   padding-right: 10px;
   font-size: 24px;
+  cursor: pointer;
 }
 .channel .actions-list .ph-bold:hover {
   color: var(--red);
@@ -189,8 +190,11 @@ main {
   font-size: 14px;
   padding: 0;
   gap: 25px;
+  font-weight: 500;
 }
-
+.video-description header h2 {
+  font-size: 14px;
+}
 .video-description .description {
   margin-top: 16px;
 }
