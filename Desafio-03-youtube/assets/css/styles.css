@@ -100,6 +100,8 @@ header {
 }
 
 main {
+  display: flex;
+  flex-direction: column;
   background-color: var(--light-gray);
 }
 .video-article {
@@ -200,4 +202,31 @@ main {
 }
 .video-description .description {
   margin-top: 16px;
+}
+
+.container-aside {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.video-aside {
+  margin: 16px 0 16px 0;
+}
+.video-aside iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+.video-aside figcaption span {
+  margin: 8px 0;
+  color: var(--gray);
+  font-weight: 400;
+}
+.video-aside figcaption p {
+  margin: 8px 0;
+  color: var(--gray);
+  font-weight: 400;
+}
+.video-aside h1 {
+  font-size: 1.25rem;
 }
