@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+  /* font-family: "Luckiest Guy", sans-serif; f*/
+}
+
+:root {
+  --black: rgb(0, 0, 0);
+  --gray: rgb(35, 39, 42);
+  --light-gray: rgb(246, 246, 246);
+  --white: rgb(255, 255, 255);
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+}
