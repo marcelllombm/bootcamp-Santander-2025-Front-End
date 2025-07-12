@@ -41,3 +41,12 @@ Neste Desafio você colocará a mão na massa e irá clonar a página do YouTube
  
 Seja criativo(a) e dê a sua identidade para o Projeto. Lembre-se que para um(a) Profissional de Tecnologia é super importante ter um portfólio sólido e completo.
 ![Captura de Tela 2025-07-09 às 07 26 51](https://github.com/user-attachments/assets/0a8b5d22-eef3-40e8-9b83-e98ce0e3ae84)
+
+---------- /// ---------- /// ----------
+
+# Desafio-04-discord
+
+Neste Desafio você colocará a mão na massa e irá reproduzir a página da incrível plataforma do Discord colocando em prática todos os conceitos aprendidos até aqui, principalmente sobre Responsividade no CSS.
+
+Seja criativo(a) e dê a sua identidade para o Projeto. Lembre-se que para um(a) Profissional de Tecnologia é super importante ter um portfólio sólido e completo.
+<img width="757" height="1090" alt="Captura de Tela 2025-07-12 às 10 47 01" src="https://github.com/user-attachments/assets/d4837af0-025b-4bff-abac-80fe8da7237f" />
