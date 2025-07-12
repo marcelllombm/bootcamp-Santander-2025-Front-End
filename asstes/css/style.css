@@ -1,1 +1,74 @@
 @import url(./reset.css);
+
+header {
+  background-image: url("../image/bg-header.png");
+  background-size: cover;
+  background-position: 70% 30%;
+  background-repeat: no-repeat;
+
+  height: 500px;
+  padding: 70px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* ← ALINHA À ESQUERDA */
+  position: relative;
+}
+
+header h1 {
+  position: absolute;
+  left: 16px;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  max-width: 250px;
+  font-size: 2rem;
+  font-family: "Luckiest Guy", sans-serif;
+  color: var(--white);
+}
+
+header p {
+  margin-top: 70px;
+  max-width: 700px;
+  color: var(--white);
+  font-weight: 400;
+}
+.bt-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bt-container button {
+  width: 380px;
+  border-radius: 50px;
+  margin-top: 16px;
+}
+
+.bt-windows {
+  padding: 16px;
+  background-color: var(--white);
+  color: var(--gray);
+}
+.bt-navegador {
+  padding: 16px;
+  background-color: var(--gray);
+  color: var(--white);
+}
+
+@media (min-width: 700px) {
+  header {
+    height: 430px;
+  }
+  header h1 {
+    position: relative;
+    max-width: 300%;
+  }
+  header p {
+    margin-top: 0;
+    text-align: center;
+  }
+  .bt-container {
+    flex-direction: row;
+    gap: 16px;
+    width: 500px;
+  }
+}
