@@ -149,6 +149,13 @@ header p {
   text-align: center;
 }
 
+footer {
+  background-color: var(--gray);
+  padding-top: 44px;
+  padding-bottom: 54px;
+  text-align: center;
+}
+
 @media (min-width: 700px) {
   header {
     height: 430px;
@@ -198,5 +205,10 @@ header p {
   .just-chillin-content {
     flex-direction: row-reverse;
     max-width: 970px;
+  }
+
+  footer img {
+    max-width: 230px;
+    width: 100%;
   }
 }
