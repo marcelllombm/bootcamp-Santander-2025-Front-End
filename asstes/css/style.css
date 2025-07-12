@@ -99,6 +99,26 @@ header p {
   margin-top: 27px;
 }
 
+.member-content {
+  padding: 40px 16px;
+  display: flex;
+  align-items: center;
+}
+.member-content img {
+  max-width: 610px;
+  width: 100%;
+}
+.member-content h1 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.member-content p {
+  font-weight: 400;
+  color: var(--gray);
+  margin-top: 27px;
+}
+
 @media (min-width: 700px) {
   header {
     height: 430px;
@@ -120,11 +140,13 @@ header p {
 
 @media (min-width: 850px) {
   .section-study,
-  .just-chillin-content {
+  .just-chillin-content,
+  .member {
     max-width: 970px;
     margin: 0 auto;
   }
-  .study-content {
+  .study-content,
+  .member-content {
     flex-direction: row;
     max-width: 970px;
   }
