@@ -4,40 +4,43 @@ Estruture páginas web com HTML, estilize interfaces com CSS e conceitos avança
 
 ---------- /// ---------- /// ----------
 
-# Desafio-01-tags-html
+# Desafio-05-herói
 
-A ideia deste Desafio de Projeto é elaborar um website, utilizando uma estrutura bem básica, utilizando tags aprendidas durante as aulas práticas:
+Entendendo o Desafio
 
-`Utilizar todas as tags explicadas nas aulas: <h1> até <h6>, <p>, <mark>, <small>, <i>, <u>, <strong>, <ol>, <ul>, <li>, <a>, <hr>, <sub>, <sup>, <blockquote>;
-Utilizar novas tags sugeridas: <font>, <del>, <p>, <abbr> (a ideia é buscar estas tags na internet, entender como ela funciona e utilizar no texto).`
-![Captura de Tela 2025-06-21 às 17 16 32](https://github.com/user-attachments/assets/34656c21-b009-4ee1-a9a3-8cd4121eace5)
+Agora é a sua hora de brilhar e construir um perfil de destaque na DIO! Explore todos os conceitos explorados até aqui e replique (ou melhore, porque não?) este projeto prático. Para isso, crie seu próprio repositório e aumente ainda mais seu portfólio de projetos no GitHub, o qual pode fazer toda diferença em suas entrevistas técnicas 😎
 
----------- /// ---------- /// ----------
+Neste repositório, insira todos os links e arquivos necessários para seu projeto, seja um arquivo de banco de dados ou um link para o template no Figma.
 
-# Desafio-02-Trilha-HTML
+Dica: Se o expert forneceu um repositório Github, você pode dar um "fork" no repositório dele para organizar suas alterações e evoluções mantendo uma referência direta ao código-fonte original.
 
-Título: Recriando Wikipedia, com um layout melhor :)
+Instruções para entrega
 
-Objetivo
-Este desafio consiste em treinar você com relação a estrutura do site, e também aplicar conhecimentos adiquiridos sobre semântica e acessibilidade.
+# 1️⃣ Desafio Classificador de nível de Herói
 
-Desafio
-Neste repositório tem uma estrutura básica já pré-montada de um layout simples com um pouco de CSS aplicado. Apenas para deixar mais apresentável.
+**O Que deve ser utilizado**
 
-Fiquem a vontade para criar da forma que desejarem, e sobre os temas que quiserem. O intuito aqui é divertir, e ao mesmo tempo aprender com o desafio.
+- Variáveis
+- Operadores
+- Laços de repetição
+- Estruturas de decisões
 
-Sigam as intruções da chamada do vídeo. Acredito que por lá, ficará mais fácil de entenderem como proceder.
+## Objetivo
 
-Links úteis
-Download do NVDA
-Wikipedia
-![Captura de Tela 2025-06-23 às 07 14 05](https://github.com/user-attachments/assets/1042e09e-d6c4-4c76-ad58-3629e873678f)
+Crie uma variável para armazenar o nome e a quantidade de experiência (XP) de um herói, depois utilize uma estrutura de decisão para apresentar alguma das mensagens abaixo:
 
----------- /// ---------- /// ----------
+Se XP for menor do que 1.000 = Ferro
+Se XP for entre 1.001 e 2.000 = Bronze
+Se XP for entre 2.001 e 5.000 = Prata
+Se XP for entre 5.001 e 7.000 = Ouro
+Se XP for entre 7.001 e 8.000 = Platina
+Se XP for entre 8.001 e 9.000 = Ascendente
+Se XP for entre 9.001 e 10.000= Imortal
+Se XP for maior ou igual a 10.001 = Radiante
 
-# Desafio-03-youtube
+## Saída
 
-Neste Desafio você colocará a mão na massa e irá clonar a página do YouTube com CSS colocando em prática todos os conceitos aprendidos, principalmente sobre Flexbox.
- 
-Seja criativo(a) e dê a sua identidade para o Projeto. Lembre-se que para um(a) Profissional de Tecnologia é super importante ter um portfólio sólido e completo.
-![Captura de Tela 2025-07-09 às 07 26 51](https://github.com/user-attachments/assets/0a8b5d22-eef3-40e8-9b83-e98ce0e3ae84)
+Ao final deve se exibir uma mensagem:
+"O Herói de nome **{nome}** está no nível de **{nivel}**"
+
+Bons estudos 😉
