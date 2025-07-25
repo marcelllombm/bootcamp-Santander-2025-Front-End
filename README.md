@@ -51,3 +51,26 @@ Neste Desafio você colocará a mão na massa e irá reproduzir a página da inc
 Seja criativo(a) e dê a sua identidade para o Projeto. Lembre-se que para um(a) Profissional de Tecnologia é super importante ter um portfólio sólido e completo.
 
 <img width="757" height="1090" alt="Captura de Tela 2025-07-12 às 10 47 01" src="https://github.com/user-attachments/assets/d4837af0-025b-4bff-abac-80fe8da7237f" />
+
+---------- /// ---------- /// ----------
+
+# Desafio-05-heroi
+
+Neste Desafio: Crie uma variável para armazenar o nome e a quantidade de experiência (XP) de um herói, depois utilize uma estrutura de decisão para apresentar alguma das mensagens abaixo:
+
+Se XP for menor do que 1.000 = Ferro
+Se XP for entre 1.001 e 2.000 = Bronze
+Se XP for entre 2.001 e 5.000 = Prata
+Se XP for entre 5.001 e 7.000 = Ouro
+Se XP for entre 7.001 e 8.000 = Platina
+Se XP for entre 8.001 e 9.000 = Ascendente
+Se XP for entre 9.001 e 10.000= Imortal
+Se XP for maior ou igual a 10.001 = Radiante
+
+## Saída
+
+Ao final deve se exibir uma mensagem:
+"O Herói de nome **{nome}** está no nível de **{nivel}**"
+
+<img width="668" height="874" alt="Captura de Tela 2025-07-25 às 07 20 07" src="https://github.com/user-attachments/assets/422e5400-11c8-495c-b349-eb09d37033f3" />
+
