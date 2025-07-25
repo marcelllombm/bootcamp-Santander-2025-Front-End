@@ -9,13 +9,13 @@
   <body>
     <header><h1>Classificador de nível de Herói</h1></header>
     <main>
-      <div>
+      <div class="container">
         <label for="">Nome:</label><input id="inputName" type="text" />
         <label for="">XP:</label><input id="inputXP" type="number" />
-        <button onclick="onAddHeroi()"> Add Herói</button>
+        <button onclick="onAddHeroi()">Add Herói</button>
       </div>
 
-      <div id="heroi"></div>
+      <div id="heroi" class="heroi"></div>
     </main>
     <footer>
       <h1>Classificação</h1>
@@ -28,6 +28,7 @@
         <li>Ascendente</li>
         <li>Imortal</li>
         <li>Radiante</li>
+      </ul>
     </footer>
   </body>
   <script src="./script.js"></script>
