@@ -17,3 +17,8 @@ Um arquivo README.md detalhado
 Qualquer outro arquivo relevante para a compreensão do projeto
 
 Enviar o link do seu repositório e uma breve descrição clicando no botão “Entregar Projeto”
+
+Link usado:
+https://icons.getbootstrap.com/icons/window-stack/
+https://favicon.io/#google_vignette
+https://tinypng.com/
