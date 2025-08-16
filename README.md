@@ -16,9 +16,8 @@ O código-fonte do seu projeto (recriado ou modificado)
 Um arquivo README.md detalhado
 Qualquer outro arquivo relevante para a compreensão do projeto
 
-Enviar o link do seu repositório e uma breve descrição clicando no botão “Entregar Projeto”
-
 Link usado:
 https://icons.getbootstrap.com/icons/window-stack/
 https://favicon.io/#google_vignette
 https://tinypng.com/
+<img width="928" height="1079" alt="Captura de Tela 2025-08-16 às 10 58 10" src="https://github.com/user-attachments/assets/dbc192dc-d3ea-4e19-b5ca-5ffb7ad32ee3" />
