@@ -74,3 +74,12 @@ Ao final deve se exibir uma mensagem:
 
 <img width="668" height="874" alt="Captura de Tela 2025-07-25 às 07 20 07" src="https://github.com/user-attachments/assets/422e5400-11c8-495c-b349-eb09d37033f3" />
 
+---------- /// ---------- /// ----------
+
+# Desafio-06-portfolio
+
+Neste Desafio: Reproduzir e/ou melhorar um projeto com base em um código existente; 
+
+<img width="928" height="1079" alt="Captura de Tela 2025-08-16 às 10 58 10" src="https://github.com/user-attachments/assets/2d8df78a-2430-409c-99b8-56befad45e84" />
+
+https://www.figma.com/design/NkndT2SbyHJZWLEsaM8Xn3/DIO-Lab-Portf%C3%B3lio?node-id=0-1&p=f&t=5F5KFEJjPWUWGIVy-0
